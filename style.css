@@ -1,0 +1,106 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: grey;
+}
+
+#menubar {
+	width:100%;
+	height: 40px;
+	background-color:	#FFD700;
+	-moz-box-shadow: 0 0 5px 5px #666;
+	text-align: center;
+	line-height: 40px;
+}
+
+#addnote {
+	margin: auto;
+	padding: 5px;
+	width: 302px;
+	background-color: #FFD700;
+}
+
+#txt_note{
+	resize: none;
+	height: 198px;
+	width: 300px;
+	border: 1px dashed black;
+	display: block;
+}
+#t1,#t2,#theDate,#thetime{
+resize: none;
+	height: 50px;
+	width: 300px;
+	border: 1px dashed black;
+	display: block;
+}
+
+
+img {
+    width:30px; /* you can use % */
+    height: auto;
+}
+
+#btn_add{
+	width: 300px;
+}
+
+#fullview {
+	margin: 5px;
+	width: 300px;
+	height: 240px;
+	border: 1px dashed black;
+	float: left;
+	position: relative;
+}
+
+#notes div img{
+	position: absolute;
+	right: 40px;
+	top: 10px;
+}
+
+#notes div p {
+    height: 190px;
+    margin: 26px 36px 25px 20px;
+    overflow: auto;
+}
+
+.alignleft {
+	float: left;
+}
+.alignright {
+	float: right;
+}
+
+
+#tbl1
+ {
+    border-collapse: collapse;
+   
+     
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+    
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: black;
+    color: white;
+    
+}
+
+.w3-tangerine {
+  font-family: 'Tangerine', serif;
+}
+
+.w3-badge,.w3-tag,.w3-sign{background-color:green;color:#fff;display:inline-block;padding-left:8px;padding-right:8px;font-weight:bold;text-align:center}
+.w3-badge{border-radius:50%}
