@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+<!-- include external css   -->
+        <link rel="stylesheet" href="css/style.css" />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    </head>
+    <body> 
+
+    <div id="myId2"></div>
+    
+    <div id="header" class="w3-container w3-tangerine"> 
+    <p class="w3-jumbo"><i class="fa fa-clipboard"></i><h1 class="alignleft">My Notes!</h1> </p>
+   <h2  class="alignright"><i class="material-icons">help_outline</i>Click on the <img src="Images/Pen on Paper Icon.png" alt="Note Form" id="imgicon"></img> icon to create notes.</h2>
+    </div>
+        <div>
+          <div id="menubar">
+           <span> <img class="delete" src="Images/Pen on Paper Icon.png" alt="Note Form" id="imgicon"></img></span>   
+          </div>
+          <div id="addnote">
+          <label id="counter"></label>
+          <i class="material-icons">perm_identity</i><input id="t1" placeholder="Enter Name..." > </input>
+          <i class="material-icons">event_note</i><input type="date" id="theDate" disabled=""> </input>
+          <i class="material-icons">access_time</i><input type="text" id="thetime" disabled=""> </input>
+          <i class="material-icons">edit</i><input id="t2" placeholder="Enter Subject..."></input>
+          <i class="material-icons">assignment</i> <div id="textarea_feedback" class="alignright">Max.Characters 250</div><textarea id="txt_note" placeholder="Enter Message..."></textarea>
+         <button style="font-size:24px" id="btn_add" >Save <i class="material-icons">save</i></button>
+           
+      </div>
+ <!-- VIEW AREA-->
+           <div> 
+            <h3 align="relative"> View Area </h3><p>Click on below 'Name' hyperlink to get detail view.</p> </div>
+            <div id="list-wrapper"></div>
+<!-- DETAIL AREA-->
+            <div></div>
+            <div><h3> Detail Area<i class="material-icons">assignment</i></h3></div>
+           <div id="detail"></div>
+     </div>
+<!-- include jquery library  -->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.1.js"></script>
+        <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+         <script type="text/javascript" src="http://www.datejs.com/build/date.js"></script>
+      <script src="js/jquery-1.4.4.js"></script>
+        <script src="js/app_script.js"></script>
+        
+    </body>
+</html>
